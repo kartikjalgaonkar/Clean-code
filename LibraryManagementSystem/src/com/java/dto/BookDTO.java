@@ -6,11 +6,11 @@ public class BookDTO {
 	private String bookCategory;
 
 	public BookDTO() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public BookDTO(int bookId, String bookName,
-			String bookCategory/* , Date issueDate */) {
+			String bookCategory) {
 		super();
 		this.bookId = bookId;
 		this.bookName = bookName;
